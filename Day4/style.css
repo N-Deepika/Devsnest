@@ -1,0 +1,80 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        #grad1 {
+            height: 100vh;
+            width: 100%;
+            float: left;
+            background-color: cyan;
+            background-image: linear-gradient(orange, blue);
+        }
+        
+        .clock {
+            width: 280px;
+            height: 280px;
+            background: grey;
+            border-radius: 50%;
+            border: 2x black;
+            margin: 200px auto;
+            background-color: red;
+            background-image: linear-gradient(red, yellow);
+            position: relative;
+        }
+        
+        .hours {
+            width: 2.5px;
+            height: 65px;
+            background: black;
+            position: absolute;
+            left: calc(50% - -3px);
+            top: 52%;
+            animation: time 250s linear infinite;
+            transform-origin: top right;
+        }
+        /*  
+  .minutes {
+    width: 3px;
+    height: 80px;
+    background: black;
+    position: absolute;
+    margin-left: 239px;
+    margin-top: -50px;
+     animation: time 60s linear infinite;
+    transform-origin:bottom left ; 
+     
+    
+  }  */
+        
+        .seconds {
+            width: 3px;
+            height: 90px;
+            background: black;
+            position: absolute;
+            left: calc(50% - -4px);
+            top: 56px;
+            animation: none time 60s steps(60, end) infinite;
+            transform-origin: bottom left;
+        }
+        
+        .dot1 {
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            position: absolute;
+            margin-left: 49%;
+            margin-top: 50%;
+            background-color: black;
+        }
+        
+        @keyframes time {
+            /* 
+    from{
+    transform :rotate(0deg)
+    } */
+            to {
+                transform: rotate(360deg)
+            }
+        }

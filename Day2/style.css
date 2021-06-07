@@ -1,0 +1,38 @@
+body{
+  margin:10px 10px 10px 10px;
+	background-image: linear-gradient(to bottom, rgb(249, 230, 255),rgb(237, 179, 255), rgb(225, 128, 255));
+	font-family: sans-serif;
+
+}
+img{
+	float:right;
+	width:15%;
+	height:15%;  
+	margin:10px; 
+}
+
+p{
+	margin: 10px;
+}
+.container{
+	margin-left: 280px;
+	margin-right: 280px;
+	border: 2px solid black;
+}
+
+h3{
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+table , td, th{
+	border: 2px solid black;
+	margin-left: 20%;
+	border-collapse: collapse;
+}
+ 
+h4{
+	margin-top: 1px;
+	margin-bottom: 5px;
+	text-align: center;
+}
