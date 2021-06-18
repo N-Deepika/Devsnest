@@ -1,0 +1,7 @@
+.box {
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(20, 1fr);
+    -ms-layout-grid-line: auto;
+    border: 1px solid brown;
+}
