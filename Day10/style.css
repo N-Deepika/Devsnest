@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 600px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid red;
+    background-color: black;
+    place-content: center;
+}
+
+.card {
+    margin: 5px;
+    display: flex;
+    height: 130px;
+    width: 130px;
+    border: 1px solid white;
+    background-color: blueviolet;
+}
+
+.card:hover {
+    background-color: burlywood;
+}
+
+
+/* #dhallow {
+    background-image: url("dhallow.png");
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    border: blanchedalmond;
+} */
