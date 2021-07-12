@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>TO-DO LIST!</title>
+</head>
+
+
+<body>
+    <h1 class="text-center">TO-DO LIST</h1>
+    <div class="container">
+        <div class="left">
+            <div>
+                <label for="title">TITle </label>
+                <input type="text" id="title" class="form-control" placeholder="Enter a Title">
+                </input>
+            </div>
+            <div class="col-24 desc">
+                <label for="desc">Description  </label>
+                <!-- <textarea id="desc"></textarea> -->
+                <input type="textarea" id="desc" class="form-control" placeholder="Enter a Title"></input>
+            </div>
+            <button type="submit" id="add">ADD</button>
+        </div>
+        <div class="right">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">S.no.</th>
+                        <th scope="col">Title</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td><button class="delete">delete</button></td>
+                    </tr>
+                </tbody>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
