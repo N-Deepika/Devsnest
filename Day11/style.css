@@ -1,0 +1,54 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: flex;
+        background-color: black;
+    }
+    
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* border: 1px solid burlywood; */
+        background-image: url(plywood.png);
+        height: 450px;
+        width: 630px;
+        display: flex;
+        flex-direction: column;
+        place-content: center;
+    }
+    
+    .buttons {
+        width: 400px;
+        background-color: bisque;
+        opacity: 85%;
+        border-radius: 20px;
+        margin: 5px;
+    }
+    
+    .ques {
+        /* position: relative; */
+        margin: 0px 90px 20px 160px;
+        /* opacity: 70%; */
+        color: white;
+        font-size: 40px;
+        /* background-color: beige; */
+    }
+    
+    .answer {
+        margin: 5px 90px 5px 150px;
+    }
+    
+    .previous {
+        display: inline;
+        margin: 18px 395px -16px 156px;
+    }
+    
+    .next {
+        margin: -3px 78px 5px 483px;
+    }
