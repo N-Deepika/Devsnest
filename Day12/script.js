@@ -3,8 +3,10 @@ function deleted(index) {
     itemjsonarr = JSON.parse(jsonstr)
     itemjsonarr.splice(index, 1)
     localStorage.setItem('itemJson', JSON.stringify(itemjsonarr))
+    document.getElementById(index).remove()
 
 }
+
 
 function update() {
     if (localStorage.getItem('itemJson') == null) {
@@ -17,6 +19,7 @@ function update() {
         itemjsonarr.push([title.value, desc.value])
         localStorage.setItem('itemJson', JSON.stringify(itemjsonarr))
     }
+
     tbody = document.getElementById('tbody')
     str = ""
     itemjsonarr.forEach((element, index) => {
@@ -26,16 +29,13 @@ function update() {
           <td>${element[1]}</td>
           <td><button onclick="deleted(${index})">delete</button></td>
         </tr>`
-
     });
     tbody.innerHTML = str;
 }
 
 add = document.getElementById('add');
-// tit=document.getElementById('title').value;
-// desc=document.getElementById('desc').value;
 add.addEventListener('click', update)
-update();
-// del = document.getElementsByClassName('delete');
-// del.addEventListener('click', deleted)
-// deleted();
+    // update();
+    // del = document.getElementsByClassName('delete');
+    // del.addEventListener('click', deleted)
+    // deleted();

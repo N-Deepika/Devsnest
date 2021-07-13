@@ -1,3 +1,8 @@
+body {
+    background-color: black;
+    color: blanchedalmond;
+}
+
 .desc {
     margin: 20px 0px 20px 0px;
 }
@@ -10,9 +15,14 @@
 .right {
     width: 400px;
     height: 500px;
-    border: 2px solid black;
+    border: 2px solid cornsilk;
 }
 
 h1 {
     text-align: center;
+}
+
+th,
+td {
+    padding: 15px;
 }
