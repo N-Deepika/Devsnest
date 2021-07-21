@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+}
+
+article {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    place-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: 20px; */
+    border: 1px solid black;
+    overflow: hidden;
+    background-image: linear-gradient(cornflowerblue, pink, purple);
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+img {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
