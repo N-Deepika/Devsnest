@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+.card {
+  border: 5px solid black;
+  display: inline-block;
+  margin: 35%;
+  height: 550px;
+  width: 400px;
+  background-color: black;
+}
+.card p {
+  font-size: small;
+  color: beige;
+}
+.card h1 {
+  color: purple;
+}
+img {
+  width: 60%;
+}

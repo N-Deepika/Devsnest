@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  overflow: none;
+}
+.cb {
+  border: 5px solid #000000;
+  height: 400px;
+  width: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  border: 0.5px solid #000000;
+}
+.white {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+.black {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
