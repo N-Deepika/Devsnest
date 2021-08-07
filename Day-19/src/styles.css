@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(233, 85, 7077), blue);
+}
+
+.btns button {
+  color: rgb(197, 30, 30);
+  border: none;
+  background: rgb(240, 202, 202);
+  outline: none;
+  padding: 10px 20px;
+  margin-right: 1rem;
+  font-size: 5rem;
+  transition: 0.1s;
+  border-radius: 5rem;
+  box-shadow: 10px 8px 4px 1px rgba(12, 18, 43, 0.75);
+}
+
+.btns button:hover {
+  background: black;
+}
