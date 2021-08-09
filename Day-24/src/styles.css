@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: purple;
+  padding: 10px 5px;
+}
+a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: white;
+}
+a:hover {
+  color: red;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 1.6rem;
+  background-color: #923dec;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
