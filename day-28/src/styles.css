@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid;
+  margin: 5% 30%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+h1{
+  color:purple
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /*not sure if it worked */
+  margin-top: 10%;
+}
+
+.cityName {
+  font-size: large;
+}
+.temp {
+  font-size: xxx-large;
+  position: relative;
+  left: 8px;
+}
+.col {
+  font-size: medium;
+}
